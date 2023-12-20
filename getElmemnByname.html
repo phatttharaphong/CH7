@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="color"value="red">red<br>
+        <input type="radio" name="color"value="green">green<br>
+        <input type="radio" name="color"value="blue">blue<br>
+        <input type="radio" name="color"value="red">red<br>
+    </form>
+    <script>
+        var rdColor = document.getElementsByName('color')
+        for (r of rdColor) {
+            document.write(r.value + '<br>')
+        }
+    </script>
+</body>
+</html>
